@@ -4,6 +4,8 @@ import ImageMasonry from "./component/masonry/masonry";
 import Dashboard from "./pages/dashboard/dashboard";
 import Box from "@mui/material/Box";
 import FloatingActionButtons from "./component/floatActionBtn/floatActionBtn";
+import { Login } from "@mui/icons-material";
+import LoginComponent from "./component/loginComponent/loginComponent";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<ImageMasonry />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/login" element={<LoginComponent />} />
         </Routes>
       </Box>
       <Box
