@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+##How to use this repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In order to use this repository make sure:
 
-Currently, two official plugins are available:
+1) You are using node version 22.2.0
+2) Your are using React v18
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   Follow the following step to use this repository
+   1) Create a firebase project
+   2) Create .env file and paste your api key inside (Alternatively, go to firebase.js and paste your firebase initialization code into it. You can find it by clicking the settings button besides your project name. Review [here](https://stackoverflow.com/questions/37337512/where-can-i-find-the-api-key-for-firebase-cloud-messaging) if needed.
+   3)Finally, run `npm install` , then run `npm run dev`. 
